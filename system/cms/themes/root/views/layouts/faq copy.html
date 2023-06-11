@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+ 
+	{pyro:theme:partial name="metadata"}
+
+   
+ <body class="white_bg">
+ 
+<!-- End Preload -->
+ 
+<!-- Mobile menu overlay mask -->
+{pyro:theme:partial name="header"}
+<!-- End Header -->
+<div class=" d-none d-xl-block" style="padding-top:40px">&nbsp;</div>
+<main class="white_bg">
+ 
+
+	<main>
+	  
+
+					<!--End terms -->
+
+<!-- End main -->
+<!-- FOOTER-->
+{pyro:theme:partial name="footer"}
+ 
+ 
+<script>
+	$('#faq_box a[href^="#"]').click(function() {
+		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+			|| location.hostname == this.hostname) {
+			var target = $(this.hash);
+			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			   if (target.length) {
+				 $('html,body').animate({
+					 scrollTop: target.offset().top -115
+				}, 800);
+				return false;
+			}
+		}
+	});
+	</script>
+
+
+  </body>
+</html>

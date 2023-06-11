@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+{pyro:theme:partial name="metadata"}
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+   integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+   crossorigin=""></script>
+
+<body>
+ 
+
+	<div class="layer"></div>
+	<!-- Mobile menu overlay mask -->
+
+	<!-- Header================================================== -->
+  {pyro:theme:partial name="headersm"}
+
+  
+<div id="mapid" class="map" style="border-bottom:none; height:100%; width:100%; position:absolute; top:0; left:0;"></div>
+
+<div id="map_filter">
+	<ul>
+		<li><a href="javascript:toggleMarkers('Historic');"><i class="icon_set_1_icon-44"></i><span>Historic Buildings</span></a></li>
+		<li><a href="javascript:toggleMarkers('Sightseeing');"><i class="icon_set_1_icon-3"></i><span>City sightseeing</span></a></li>
+		<li><a href="javascript:toggleMarkers('Museums');"><i class="icon_set_1_icon-4"></i><span>Museum</span></a></li>
+		<li><a href="javascript:toggleMarkers('Skyline');"><i class="icon_set_1_icon-28"></i><span>Skyline tours</span></a></li>
+		<li><a href="javascript:toggleMarkers('Eat_drink');"><i class="icon_set_1_icon-14"></i><span>Eat & Drink</span></a></li>
+		<li><a href="javascript:toggleMarkers('Walking');"><i class="icon_set_1_icon-37"></i><span>Walking tours</span></a></li>
+		<li><a href="javascript:toggleMarkers('Churches');"><i class="icon_set_1_icon-43"></i><span>Churces</span></a></li>
+	</ul>
+</div>
+
+<!-- Search Menu -->
+<div class="search-overlay-menu">
+	<span class="search-overlay-close"><i class="icon_set_1_icon-77"></i></span>
+	<form role="search" id="searchform" method="get">
+		<input value="" name="q" type="search" placeholder="Search..." />
+		<button type="submit"><i class="icon_set_1_icon-78"></i>
+		</button>
+	</form>
+</div><!-- End Search Menu -->
+   
+	<!-- Common scripts -->
+	{pyro:theme:js file="jquery-2.2.4.min.js"} 
+	{pyro:theme:js file="common_scripts_min.js"} 
+	{pyro:theme:js file="functions.js"}  
+	<script>
+
+		var mymap = L.map('mapid').setView([-6.1908749, 106.8228353], 13);
+	
+		L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+			maxZoom: 18,
+			attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+				'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+				'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+			id: 'mapbox.streets'
+		}).addTo(mymap);
+	
+	</script>
+</body>
+
+</html>

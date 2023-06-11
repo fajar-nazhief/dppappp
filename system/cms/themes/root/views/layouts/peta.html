@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+{pyro:theme:partial name="metadata"}
+
+<body>
+
+	 
+	<!-- Mobile menu overlay mask -->
+
+	<!-- Header================================================== -->
+  {pyro:theme:partial name="header"}
+
+  <link rel="stylesheet" href="<?php echo base_url();?>assets/css/leaflet.css">
+  <link rel="stylesheet" href="<?php echo base_url();?>assets/css/L.Icon.Pulse.css">
+  <link rel="stylesheet" href="<?php echo base_url();?>assets/js/routing/leaflet-routing-machine.css" />
+
+	<section class="parallax-window" data-parallax="scroll" data-image-src="<?php echo base_url()?>assets/images/default.jpg" data-natural-width="1400" data-natural-height="470">
+		<div class="parallax-content-1">
+				<div class="animated fadeInDown">
+            <h1 id="judul">PETA BUDAYA</h1>
+             
+          </div>
+		</div>
+	</section>
+	<!-- End section -->
+
+	<main>
+		<div id="position">
+			<div class="container">
+				<ul id="breadcrumbs_event">
+					<li><a href="<?php echo base_url()?>event">Home</a>
+					</li> 
+					<li>Page active</li>
+				</ul>
+			</div>
+		</div>
+		<!-- End position --> 
+		<div class="container margin_60">
+
+			<div class="row">
+				<aside class="col-lg-3">
+			 
+
+					<div class="box_style_cat">
+						<ul id="cat_nav">
+							<li><a href="javascript:void(0)" onclick="kliklayer('layer_museum','https://jakarta-tourism.go.id/api/gis/lokasi_museum')">Museum</a></li>
+							 
+						</ul>
+					</div>
+
+					 
+					 
+				</aside>
+				<!--End aside -->
+				<div class="col-lg-9">
+
+					<div id="tools">
+						<form name="aksi" action="<?php echo base_url()?>peta/earch" method="post">
+						<div class="row">
+							<div class="col-md-3 col-sm-4 col-4">
+								<div class="styled-select-filters">
+								<input class="form-control " value="" name="searchmap" type="text" >
+								</div>
+							</div>
+							 
+							<div class="col-md-2 col-sm-2 col-2">
+							<input type="submit" class="btn_1 add_bottom_30" value="Search" style="margin-bottom:5px">
+							</div>
+						 
+
+						</div>
+							</form>
+					</div>
+					<!--/tools -->
+					<div id='mapid' style="height:500px;width:100%"></div>
+
+					<hr> 
+					<!-- end pagination-->
+
+				</div>
+				<!-- End col lg-9 -->
+			</div>
+			<!-- End row -->
+		</div>
+	
+
+			 
+			<!-- End row--> 
+		<!-- End container -->
+		
+	</main> 
+	<!-- End main -->
+  {pyro:theme:partial name="footer"}
+	 
+  
+
+<script type="text/javascript" src="<?php echo base_url();?>assets/js/leaflet.js"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/js/L.Icon.Pulse.js"></script>  
+<script src="<?php echo base_url();?>assets/js/routing/Control.Geocoder.js"></script>
+<script src="<?php echo base_url();?>assets/js/routing/leaflet-routing-machine.js"></script> 
+<script src="<?php echo base_url();?>assets/js/routing/config.js"></script> 
+
+  
+<script src="<?php echo base_url();?>assets/js/mapfunction.js"></script> 
+<script>
+	initmap();
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+	{pyro:theme:partial name="metadata"}
+
+<body class="stretched">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+		{pyro:theme:partial name="header"}
+
+		<!-- Page Title
+		============================================= -->
+		<section class="parallax-window" data-parallax="scroll" data-image-src="http://jakarta-tourism.go.id/dev-5/uploads/default/files/kebijakan.jpg" data-natural-width="1400" data-natural-height="470">
+			<div class="parallax-content-1">
+					<div class="animated fadeInDown">
+				<h1 id="judul"></h1>
+				 
+			  </div>
+			</div>
+		</section>
+		<!-- End section -->
+		<section id="content">
+			<div class="content-wrap">
+				<div class="container clearfix">
+				{pyro:template:body}
+			</div>
+			</div>
+		</section><!-- #content end -->
+		 
+
+		<!-- Footer
+		============================================= -->
+		 
+
+	</div><!-- #wrapper end -->
+
+	
+
+<div class="modal fade" data-toggle="mymodal" id="mymodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
+	<div class="modal-dialog">
+			<div class="modal-content">
+					
+					<div class="modal-body" >
+							<span id="isi"></span>
+					</div>
+				 
+			</div>
+	</div>
+</div>	
+
+<!-- Common scripts -->
+{pyro:theme:js file="common_scripts_min.js"}
+{pyro:theme:js file="functions.js"} 
+
+<!-- SLIDER REVOLUTION SCRIPTS  -->
+<script src="<?php echo APPPATH?>themes/root/rev-slider-files/js/jquery.themepunch.tools.min.js"></script>
+<script src="<?php echo APPPATH?>themes/root/rev-slider-files/js/jquery.themepunch.revolution.min.js"></script>
+<script src="<?php echo APPPATH?>themes/root/rev-slider-files/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="<?php echo APPPATH?>themes/root/rev-slider-files/js/extensions/revolution.extension.carousel.min.js"></script>
+<script src="<?php echo APPPATH?>themes/root/rev-slider-files/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="<?php echo APPPATH?>themes/root/rev-slider-files/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="<?php echo APPPATH?>themes/root/rev-slider-files/js/extensions/revolution.extension.migration.min.js"></script>
+<script src="<?php echo APPPATH?>themes/root/rev-slider-files/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="<?php echo APPPATH?>themes/root/rev-slider-files/js/extensions/revolution.extension.parallax.min.js"></script>
+<script src="<?php echo APPPATH?>themes/root/rev-slider-files/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="<?php echo APPPATH?>themes/root/rev-slider-files/js/extensions/revolution.extension.video.min.js"></script>
+
+
+<!-- slider --> 
+<script>
+	function modalpop(isi){
+	$('#mymodal').modal('show');
+	$('#isi').html(isi);
+}
+	 $('.start_date').dateDropper();
+	 $('.end_date').dateDropper();
+	 
+</script> 
+
+<!-- NOTIFY BUBBLES  --> 
+
+ 
+
+</body>
+</html>

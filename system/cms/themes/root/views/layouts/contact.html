@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+ 
+	{pyro:theme:partial name="metadata"}
+
+   
+ <body class="white_bg">
+ 
+<!-- End Preload -->
+ 
+<!-- Mobile menu overlay mask -->
+{pyro:theme:partial name="header"}
+<!-- End Header -->
+<div class=" d-none d-xl-block" style="padding-top:40px">&nbsp;</div>
+	<main class="white_bg">
+<div id="map_contact" class="contact_2" style="height:400px">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.644286265345!2d106.87309821458851!3d-6.178347395527064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5cdcbab4035%3A0x71d9bf9412cc6df!2sDPPAPP%20PROVINSI%20DKI%20JAKARTA!5e0!3m2!1sen!2sid!4v1573469193324!5m2!1sen!2sid" width="600" frameborder="0" style="border:0;height:400px" allowfullscreen=""></iframe>
+</div>
+	<!-- end map-->
+  
+{pyro:contact:form}
+ 
+</main>
+<!-- End main -->
+<!-- FOOTER-->
+{pyro:theme:partial name="footer"}
+ 
+<script>
+  function cek(){
+    if($('#verify_contact').val() !== '4'){
+      $.popup({                
+                    title       : '',
+                    content         : '<img src="./images/sign-error-icon.png" height="100px">Jumlah yang anda masukkan salah!', 
+					html: true,
+					autoclose   : false,
+					closeOverlay:true,
+					closeEsc: false,
+					buttons     : false,
+                    timeout     : 10000 
+                });
+      return false;
+    }
+  }
+</script>
+
+  </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+{pyro:theme:partial name="metadata"}
+
+<body class="white_bg">
+
+	 
+	<!-- Mobile menu overlay mask -->
+
+	<!-- Header================================================== -->
+  {pyro:theme:partial name="header"}
+
+
+	 
+	<!-- End section -->
+	<div class=" d-none d-xl-block" style="padding-top:200px">&nbsp;</div>
+	<main class="white_bg">
+		
+
+	<div id="position" style="padding:0px;background:#fff">
+
+		<div class="container">
+
+			<ul class="headercrumb">
+
+				<li><a href="<?php echo base_url()?>">Home</a>
+
+				</li> 
+
+				<li><a href="<?php echo base_url()?>agenda">Jadwal Kegiatan</a></li>
+
+			</ul>
+
+		</div>
+
+	</div>
+
+	<!-- End position -->
+		<!-- End position -->
+		<div class="container margin_60">
+				{pyro:template:body}
+			 
+			<!-- End row-->
+		</div>
+		<!-- End container -->
+		
+	</main> 
+	<!-- End main -->
+  {pyro:theme:partial name="footer"}
+	
+<script>
+	
+	$('form').get(0).setAttribute('action', 'agenda/search'); 
+ 
+
+
+	
+</script>
+</body>
+
+</html>
