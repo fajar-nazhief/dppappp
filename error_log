@@ -1,0 +1,24 @@
+[13-May-2020 09:50:59 Asia/Jakarta] PHP Fatal error:  Unsupported operand types in /home/jakarta/public_html/dev-5/system/cms/modules/agenda/views/admin/index.php on line 21
+[13-May-2020 09:52:46 Asia/Jakarta] PHP Fatal error:  Unsupported operand types in /home/jakarta/public_html/dev-5/system/cms/modules/agenda/views/admin/index.php on line 41
+[13-May-2020 09:53:10 Asia/Jakarta] PHP Fatal error:  Unsupported operand types in /home/jakarta/public_html/dev-5/system/cms/modules/agenda/views/admin/index.php on line 41
+[23-May-2020 09:25:18 Asia/Jakarta] PHP Fatal error:  Unsupported operand types in /home/jakarta/public_html/dev-5/system/cms/modules/potret_wilayah/views/admin/index.php on line 35
+[23-May-2020 09:26:34 Asia/Jakarta] PHP Fatal error:  Unsupported operand types in /home/jakarta/public_html/dev-5/system/cms/modules/potret_wilayah/views/admin/index.php on line 35
+[23-May-2020 09:26:53 Asia/Jakarta] PHP Fatal error:  Unsupported operand types in /home/jakarta/public_html/dev-5/system/cms/modules/potret_wilayah/views/admin/index.php on line 69
+[23-May-2020 11:54:05 Asia/Jakarta] PHP Fatal error:  Call to undefined method News::where() in /home/jakarta/public_html/dev-5/system/cms/modules/news/controllers/news.php on line 322
+[23-May-2020 11:54:07 Asia/Jakarta] PHP Fatal error:  Call to undefined method News::where() in /home/jakarta/public_html/dev-5/system/cms/modules/news/controllers/news.php on line 322
+[08-Jun-2020 08:29:47 Asia/Jakarta] PHP Fatal error:  Call to a member function get_folders() on a non-object in /home/jakarta/public_html/dev-5/system/cms/modules/video/controllers/admin.php on line 354
+[08-Jun-2020 08:31:05 Asia/Jakarta] PHP Fatal error:  Call to a member function get_folders() on a non-object in /home/jakarta/public_html/dev-5/system/cms/modules/video/controllers/admin.php on line 355
+[08-Jun-2020 08:31:17 Asia/Jakarta] PHP Fatal error:  Call to a member function get_folders() on a non-object in /home/jakarta/public_html/dev-5/system/cms/modules/video/controllers/admin.php on line 355
+[21-Jun-2020 12:20:14 UTC] PHP Warning:  POST Content-Length of 709368142 bytes exceeds the limit of 188743680 bytes in Unknown on line 0
+[21-Jun-2020 12:30:48 UTC] PHP Warning:  POST Content-Length of 709368142 bytes exceeds the limit of 188743680 bytes in Unknown on line 0
+[28-Jun-2020 18:09:24 Asia/Jakarta] PHP Fatal error:  Can't use method return value in write context in /home/jakarta/public_html/dev-5/system/cms/modules/pemohon/controllers/admin.php on line 151
+[28-Jun-2020 18:10:27 Asia/Jakarta] PHP Fatal error:  Can't use method return value in write context in /home/jakarta/public_html/dev-5/system/cms/modules/pemohon/controllers/admin.php on line 292
+[28-Jun-2020 18:12:49 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/jakarta/public_html/dev-5/system/codeigniter/database/DB_active_rec.php on line 1021
+[30-Jun-2020 08:30:50 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/jakarta/public_html/dev-5/system/codeigniter/database/DB_active_rec.php on line 1021
+[30-Jun-2020 08:31:22 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/jakarta/public_html/dev-5/system/codeigniter/database/DB_active_rec.php on line 1021
+[30-Jun-2020 08:31:49 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/jakarta/public_html/dev-5/system/codeigniter/database/DB_active_rec.php on line 1021
+[30-Jun-2020 08:31:51 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/jakarta/public_html/dev-5/system/codeigniter/database/DB_active_rec.php on line 1021
+[30-Jun-2020 08:33:26 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/jakarta/public_html/dev-5/system/codeigniter/database/DB_active_rec.php on line 1021
+[30-Jun-2020 08:33:28 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/jakarta/public_html/dev-5/system/codeigniter/database/DB_active_rec.php on line 1021
+[30-Jun-2020 08:35:30 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/jakarta/public_html/dev-5/system/codeigniter/database/DB_active_rec.php on line 1021
+[30-Jun-2020 08:35:31 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/jakarta/public_html/dev-5/system/codeigniter/database/DB_active_rec.php on line 1021
