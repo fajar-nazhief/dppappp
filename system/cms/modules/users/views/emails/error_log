@@ -1,0 +1,5 @@
+[01-Feb-2015 02:38:37 Asia/Jakarta] PHP Fatal error:  Call to undefined function anchor() in /home/acehwee7/public_html/system/cms/modules/users/views/emails/activate.tpl.php on line 4
+[01-Feb-2015 02:38:37 Asia/Jakarta] PHP Fatal error:  Call to undefined function lang() in /home/acehwee7/public_html/system/cms/modules/users/views/emails/reset_password.php on line 1
+[01-Feb-2015 02:38:37 Asia/Jakarta] PHP Fatal error:  Call to undefined function anchor() in /home/acehwee7/public_html/system/cms/modules/users/views/emails/forgot_password.tpl.php on line 4
+[01-Feb-2015 02:38:38 Asia/Jakarta] PHP Fatal error:  Call to undefined function lang() in /home/acehwee7/public_html/system/cms/modules/users/views/emails/activation_complete.php on line 1
+[01-Feb-2015 02:38:38 Asia/Jakarta] PHP Fatal error:  Call to undefined function lang() in /home/acehwee7/public_html/system/cms/modules/users/views/emails/activation_required.php on line 1

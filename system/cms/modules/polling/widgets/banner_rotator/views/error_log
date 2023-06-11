@@ -1,0 +1,1 @@
+[01-Feb-2015 02:39:07 Asia/Jakarta] PHP Fatal error:  Call to undefined function js_url() in /home/acehwee7/public_html/system/cms/modules/polling/widgets/banner_rotator/views/display.php on line 1

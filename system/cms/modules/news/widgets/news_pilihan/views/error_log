@@ -1,0 +1,1 @@
+[01-Feb-2015 02:38:45 Asia/Jakarta] PHP Fatal error:  Call to undefined function form_input() in /home/acehwee7/public_html/system/cms/modules/news/widgets/news_pilihan/views/form.php on line 4

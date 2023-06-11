@@ -1,0 +1,198 @@
+/*
+#------------------------------------------------------------------------
+# The World News II - July 2011 template (for Joomla 1.6/1.7)
+#
+# Copyright (C) 2007-2011 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+/* template.css */
+html { background: #d4d2c6 url('../images/style3/bg1.jpg') no-repeat center top; }
+body { background: transparent url('../images/style3/bg2.png') no-repeat center top; }
+a:hover,
+a:active,
+a:focus { color: #c8270c; }
+h1#gkLogo a.cssLogo { background-image: url('../images/style3/logo.png'); }
+#gkTopMenu { background: #373737; border-bottom: 1px solid #6c6162; }
+#gkTopMenu1 .menu li a,
+#gkTopMenu1 .menu li a:hover { color: #fff; }
+#gkTopMenu1 .menu { text-shadow: -1px -1px 0 #202020; }
+#gkTopMenu1 .menu li { background-image: url('../images/style3/separator_color.png'); }
+#gkSearch #mod-search-searchword { border: none; color: #4d4d4d; box-shadow:inset 0 0 9px #d0d0d0; -webkit-box-shadow: inset 0 0 9px #d0d0d0; -moz-box-shadow: inset 0 0 9px #d0d0d0; }
+#gkMainMenu { background-image: url('../images/style3/menu_item.png'); border-bottom-color: #5e5253; }
+#gkMainMenu > div { border-bottom-color: #6c6162; }
+#gkBreadcrumb .breadcrumbs li.pathway { color: #c8270c; }
+#gkBreadcrumbMainbody .breadcrumbs li.pathway { color: #c8270c; }
+#gkButtons { background-image: url('../images/style3/top_btn_left.png'); }
+#gkButtons > div { background-image: url('../images/style3/top_btn_right.png'); }
+#gkButtons a:active,
+#gkButtons a:focus,
+#gkButtons a:hover { color: #c8270c; }
+#gkButtons #btnLogin { background-image: url('../images/style3/top_btn_left.png'); }
+#gkButtons #btnLogin span { background-image: url('../images/style3/top_btn_right.png'); }
+#gkPage .box li,
+#gkPage .box_menu li,
+#gkPage .box_text li { background-image: url('../images/style3/bullet_color.png'); }
+#gkPage .box > div > h3.header,
+#gkPage .box_menu > div > h3.header,
+#gkPage .box_text > div > h3.header { border-top-color: #c8270c; }
+#gkPage .box.dark a:hover,
+#gkPage .box_text.dark a:hover,
+#gkPage .box_menu.dark a:hover { color: #c8270c; }
+#gkPage .box.color,
+#gkPage .box_text.color,
+#gkPage .box_menu.color { background: #594c4d; color: #bbb7b7; }
+#gkPage .box.color > div > h3.header,
+#gkPage .box_text.color > div > h3.header,
+#gkPage .box_menu.color > div > h3.header { background: #4f4445 url('../images/style3/color_header_bg.png') repeat-x left top; border-bottom: 1px solid #635758; }
+#gkPage .box.color > div > h3.header > span,
+#gkPage .box_text.color > div > h3.header > span,
+#gkPage .box_menu.color > div > h3.header > span { background: #4f4445 url('../images/style3/color_header_bg.png') repeat-x left top; text-shadow: 0 1px 0 #3a3132; }
+#gkPage .box.color a:hover,
+#gkPage .box_text.color a:hover,
+#gkPage .box_menu.color a:hover { color: #bbb7b7; }
+#gkBottomWrap li { background-image: url('../images/style3/bullet_color.png'); }
+#gkBottomWrap div.k2ItemsBlock ul li { background-image: url('../images/style3/bullet_color.png')!important; }
+/* menu.css */
+#gkMainMenu > div > ul > li > a { text-shadow: -1px -1px 0 #433a3b; } 
+#gkMainMenu > div > ul > li:hover,
+#gkMainMenu > div > ul > li.active { background-image: url('../images/style3/menu_item.png'); }
+#gkMainMenu > div > ul > li > a { background-image: url('../images/style3/menu_separator.png');  } 
+#gkMainMenu > div > ul div.childcontent li.active > a,
+#gkMainMenu > div > ul div.childcontent li.active > span,
+#gkMainMenu > div > ul div.childcontent li:hover > a,
+#gkMainMenu > div > ul div.childcontent li:hover > span,
+#gkMainMenu > div > ul div.childcontent li > a:hover,
+#gkMainMenu > div > ul div.childcontent li > span:hover { color: #c8270c!important; }
+#gkSubmenu ul li li > a:hover,
+#gkSubmenu ul li li > a:hover > span { color: #c8270c!important; }
+/* joomla.css */
+.button:hover,
+.button:focus,
+button:hover,
+button:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+a:hover.k2ReadMore,
+a.plupload_button:hover  { color: #c8270c !important; }
+p.readmore a,
+a.readon,
+.k2ReadMore { color:#c8270c; }
+#article-index ul li a:hover,
+div.k2Pagination ul li a:hover,
+div.pagination ul li a:hover { color: #c8270c; }
+.items-more ol li { color: #c8270c; }
+.box_menu ul.menu { color: #c8270c; }
+.searchintro { color: #c8270c; }
+/* gk_stuff.css */
+.gkIsPopup-gk_sporter2 .gkIsTextBlock p a { color: #c8270c!important; }
+.nspBotInterface .nspPrev,
+.nspTopInterface .nspPrev,
+.nspBotInterface .nspNext,
+.nspTopInterface .nspNext { background-image: url('../images/style3/nsp_buttons.png'); }
+.big_title .nspLinks ul li { background-image: url('../images/style3/bullet_color.png')!important; }
+.color_title .nspArt h4.nspHeader,
+.color_title .nspArt h4.nspHeader a { color: #c8270c; }
+.color_title .nspLinks ul li { background-image: url('../images/style3/bullet_color.png')!important; }
+div.sidebar .nspInfo a:hover { color: #c8270c; }
+.gkIsPopup-gk_sporter2 .prev,
+.gkIsPopup-gk_sporter2 .next { background-image: url("../images/style3/nsp_buttons.png")!important; }
+.nspMainPortalMode4 .nspPrev,
+.nspMainPortalMode4 .nspNext { background-image: url('../images/style3/nsp_buttons.png')!important; }
+/* k2.css */
+.latestItemHeader .latestItemTitle a:hover,
+.genericItemHeader .genericItemTitle a:hover,
+.userItemHeader .userItemTitle a:hover,
+.catItemHeader .catItemTitle a:hover { color: #c8270c}
+.itemToolbar ul li a:hover {  color: #c8270c;}
+.itemToolbar .itemAuthor a { color: #c8270c; }
+.itemAuthorBlock .itemAuthorDetails a,
+.latestItemsUser a,
+.userBlock a { color: #c8270c; }
+.itemAuthorBlock .itemAuthorDetails a:hover,
+.latestItemsUser a:hover,
+.userBlock a:hover { color: #c8270c; }
+.itemAuthorBlock .itemAuthorDetails h3.itemAuthorName,
+.latestItemsUser h2,
+.userBlock h2 { color: #c8270c; }
+.itemRelated ul li,
+.itemAuthorLatest ul li { color: #c8270c; }
+.itemRelated ul li a:hover,
+.itemAuthorLatest ul li a:hover { color: #c8270c}
+.itemComments ul.itemCommentsList li span.commentAuthorName { color: #c8270c; }
+.subCategory h2 a:hover { color: #c8270c }
+.k2ItemsBlock ul li a:hover.moduleItemTitle { color: #c8270c; }
+.k2CategoriesListBlock ul.level0 li.active a,
+.k2CategoriesListBlock ul.level0 li#current.parent.active a { color: #c8270c; }
+.k2CategoriesListBlock ul.level0 li a:hover,
+.k2CategoriesListBlock ul.level0 li#current li a:hover { color: #c8270c; }
+.k2TagCloudBlock a:hover { color: #c8270c; }
+.k2TagCloudBlock a.big-tag { color: #c8270c; }
+/* JomSocial 2.4.1 CSS */
+#cProfileWrapper .cModule.gk-grey h4,
+#cProfileWrapper .cModule.gk-grey a,
+#community-wrap .newsfeed-content a,
+#community-wrap .group-menus li a:hover,
+#community-wrap .event-menus li a:hover,
+#community-wrap .group-menus .important a:hover,
+#community-wrap .event-menus .important a:hover,
+#community-wrap div.ccontent-avatar .createby a ,
+body #community-admin-wrapper a:hover,
+body #community-wrap #cFilterBar .active,
+#community-wrap .cModule.latest-events .jsDetail b a:hover ,
+#jsMenu .jsMenuBar > ul > li > a.active,
+#jsMenu .jsMenuBar ul li.active ul a:hover,
+#jsMenu .jsMenuBar ul ul li a:hover, 
+#community-wrap a#activity-update-click,
+#community-wrap .profile-toolbox-meta a,
+body #community-wrap div.greybox div div div.loginform div.forgot a:hover,
+#cProfileWrapper .creators li a :hover,
+#community-wrap .joms-newsfeed-more a.more-activity-text:hover,
+#community-wrap .jsDetail div h4 a { color: #c8270c!important;}
+#community-wrap .cModule h3 { border-top-color: #c8270c!important;}
+body #community-wrap div.greybox div.joinbutton {background: #514647!important;}
+body #community-wrap div.greybox div.joinbutton:hover,
+#community-wrap a#activity-update-click:hover,
+#community-wrap .profile-toolbox-meta a:hover {background: #D53115!important;}
+body #community-wrap div.greybox a#joinButton  {text-shadow: 0 1px 0 #2a2626!important;}
+body #community-wrap div.greybox:hover div.joinbutton {background: #212121!important;}
+body #community-wrap div.greybox:hover h1 {color: #c8260a!important;}
+body #community-wrap div.greybox:hover div.joinbutton a#joinButton{text-shadow: 0 1px 0 #212121!important;}
+#community-wrap .cModule.gk-color {background: #594c4d!important; color: #bbb7b7!important;}
+#community-wrap .cModule.gk-color h3 {background: #4f4445 url('../images/style3/color_header_bg.png') repeat-x left top!important; border-bottom: 1px solid #635758!important; color: #fff!important;}
+#community-wrap .cModule.gk-color h3 span { text-shadow: 0 1px 0 #3a3132!important; }
+#community-wrap .cModule.gk-color a {color: #fff!important;  }
+#community-wrap .cModule.gk-color .app-box-footer {border-top: 1px solid #635758!important;}
+#community-wrap .cModule.gk-color {color: #fff!important}
+#community-wrap .latest-events .jsDD { text-shadow: -1px -1px 0 #333!important;color: #fff!important;} 
+#cFrontpageWrapper div.gk-js-frontact li.creator a {background: #373737!important;}
+#cFrontpageWrapper div.gk-js-frontact li.creator:hover a {background: #D63115!important;text-shadow: 0 1px 0 #212121!important;}
+#cFrontpageWrapper a#activity-update-click {background: #373737!important;color: #fff!important;text-shadow: 0 1px 0 #212121!important;}
+.community-events-results-left .eventDate { background: #C6250A url(../images/style3/color_header_bg.png) repeat-x 0 0!important;}
+#community-wrap #wallContent span.show-cmt a,
+#community-wrap .video-title a:hover,
+#community-wrap .inbox-message-heading a {color: #c8270c!important}
+#community-wrap #wallContent span.show-cmt a :hover {color: #222;}
+#jsMenu .jsGlobalsNot,
+#jsMenu .jsFriendsNot,
+#jsMenu .jsMesaggeNot,
+#jsMenu .jsLogOff a,
+#jsMenu .jsHome { background-color: #c8270c!important}
+#community-wrap .community-status .creator.active a,
+#community-wrap a.active-state,
+#community-wrap .latest-events .jsMM {color: #cf503a!important;}
+#community-wrap .latest-video .video-durationHMS  {background: #755e60!important;}
+#community-wrap #event table td+td:hover {background: #cf503a!important; }
+#community-wrap #event table td.running {background: #c8270c!important;}
+#community-wrap #event table td.selected {background: #cf503a!important;}
+#community-wrap .cModule .cResetList.cCategories li { color: #C6250A!important; }
+#community-wrap .cModule .cResetList.cCategories .cCount {background: #755e60!important;}
+#community-wrap #community-event-rsvp .selector {
+	background: transparent url('../images/style3/color_header_bg.png') repeat-x!important;
+	border-top: 1px solid #635758!important;
+}
+#community-wrap #cFeatured.forPeople .cBoxPad {border: 1px solid #635758!important;}
+#cGallery .photoTagAction._cancel:hover {background:url("../images/closebox-hover.png") no-repeat scroll 0 0 transparent !important}

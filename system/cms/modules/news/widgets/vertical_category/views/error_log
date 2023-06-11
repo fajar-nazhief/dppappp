@@ -1,0 +1,2 @@
+[01-Feb-2015 02:38:45 Asia/Jakarta] PHP Fatal error:  Call to undefined function image_url() in /home/acehwee7/public_html/system/cms/modules/news/widgets/vertical_category/views/display.php on line 3
+[01-Feb-2015 02:38:45 Asia/Jakarta] PHP Fatal error:  Call to undefined function form_dropdown() in /home/acehwee7/public_html/system/cms/modules/news/widgets/vertical_category/views/form.php on line 4

@@ -1,0 +1,177 @@
+/**
+ *********************************************
+ * Prototype of styles for horizontal CSS-menu
+ * @data 30.06.2009
+ *********************************************
+ * (X)HTML-scheme:
+ *  <div id="menu">
+ *      <ul class="menu">
+ *          <li><a href="#" class="parent"><span>level 1</span></a>
+ *              <ul>
+ *                  <li><a href="#" class="parent"><span>level 2</span></a>
+ *                      <ul><li><a href="#"><span>level 3</span></a></li></ul>
+ *                  </li>
+ *              </ul>
+ *          </li>
+ *          <li class="last"><a href="#"><span>level 1</span></a></li>
+ *      </ul>
+ *  </div>
+ *********************************************
+ */
+
+/* menu::base */
+div#menu {
+    clear: both;
+	font-size: 1.1em;
+	height: 30px; 
+	color: #FFF;
+	margin: 0 0 0 0px; 
+	background: #FF9148;
+        border-radius: 4px 4px 4px 4px;
+        text-shadow: 1px 1px 1px #969696;
+}
+
+div#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+}
+div#menu ul.menu {
+    padding-left: 30px;
+}
+
+div#menu li {
+    position: relative;
+    z-index: 9;
+    margin: 0;
+    padding: 0 5px 0 0;
+    display: block;
+    float: left;
+}
+div#menu li:hover>ul {
+    left: -2px;
+}
+
+div#menu a {
+    position: relative;
+    z-index: 10;
+    height: 41px;
+    display: block;
+    float: left;
+    line-height: 41px;
+    text-decoration: none;
+    font: normal 12px Trebuchet MS;
+}
+div#menu a:hover, div#menu a:hover span { color: #fff; }
+div#menu a:hover { color: rgb(218,219,222); }
+div#menu li.current a {}
+
+
+
+div#menu span {
+    display: block;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: 95% 0;
+}
+div#menu ul ul a.parent span {
+    background-position:95% 8px;
+     
+}
+div#menu ul ul a.parent:hover span {
+    
+}
+
+/* menu::level1 */
+div#menu a {
+    padding: 0 10px 0 10px;
+    line-height: 30px;
+    color: #e5e5e5;
+}
+div#menu span {
+    margin-top: 5px;
+color: #333;
+}
+div#menu ul a:hover span {
+color: #333;
+}
+div#menu ul ul span {
+color: rgb(169,169,169);
+}
+div#menu ul ul a:hover span {
+color: rgb(218,219,222);
+}
+
+
+div#menu li {  }
+div#menu li.last { background: none; }
+div#menu li.active { 
+		background: #E0691A url(bar.gif) no-repeat center top; 
+		color: #fff;
+		font-weight: bold; 
+		padding: 7px 10px 6px 10px;
+	}
+
+/* menu::level2 */
+div#menu ul ul li { background: none; }
+div#menu ul ul {
+    position: absolute;
+    top: 30px;
+    left: -999em;
+    width: 163px;
+    padding: 5px 0 0 0;
+    background: #FF9148;
+    margin-top:1px;
+     border-bottom:1px solid #FFFFFF;
+}
+div#menu ul ul a {
+    padding: 0 0 0 15px;
+    height: auto;
+    float: none;
+    display: block;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+div#menu ul ul span {
+    margin-top: 0;
+    padding-right: 15px;
+    _padding-right: 20px;
+    color: rgb(169,169,169);
+}
+div#menu ul ul a:hover span {
+    color: #fff;
+}
+div#menu ul ul li.last { background: none; }
+div#menu ul ul li {
+    width: 100%;
+}
+
+/* menu::level3 */
+div#menu ul ul ul {
+    padding: 0;
+    margin: -30px 0 0 163px !important;
+    margin-left:172px;
+    border-bottom:1px solid #FFFFFF;
+}
+
+/* colors */
+div#menu ul ul ul { background: #FF9148; }
+div#menu ul ul ul ul { #FF9148;; }
+div#menu ul ul ul ul { #FF9148;; }
+
+/* lava lamp */
+div#menu li.back {
+    
+    width: 13px;
+    height: 44px;
+    z-index: 8;
+    position: absolute;
+    margin: -1px 0 0 -5px;
+}
+div#menu li.back .left {
+   
+    height: 44px;
+    margin-right: 8px;
+}
+

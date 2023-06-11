@@ -1,0 +1,2 @@
+[01-Feb-2015 02:39:00 Asia/Jakarta] PHP Warning:  Invalid argument supplied for foreach() in /home/acehwee7/public_html/system/cms/modules/blog/widgets/latest_posts/views/display.php on line 2
+[01-Feb-2015 02:39:00 Asia/Jakarta] PHP Fatal error:  Call to undefined function form_input() in /home/acehwee7/public_html/system/cms/modules/blog/widgets/latest_posts/views/form.php on line 4

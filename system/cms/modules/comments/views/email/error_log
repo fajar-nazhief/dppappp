@@ -1,0 +1,2 @@
+[01-Feb-2015 02:38:35 Asia/Jakarta] PHP Fatal error:  Call to undefined function config_item() in /home/acehwee7/public_html/system/cms/modules/comments/views/email/comment_html.php on line 3
+[01-Feb-2015 02:38:35 Asia/Jakarta] PHP Fatal error:  Call to undefined function config_item() in /home/acehwee7/public_html/system/cms/modules/comments/views/email/comment_plain.php on line 1

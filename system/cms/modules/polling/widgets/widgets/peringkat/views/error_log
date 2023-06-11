@@ -1,0 +1,2 @@
+[01-Feb-2015 02:39:24 Asia/Jakarta] PHP Fatal error:  Call to undefined function form_dropdown() in /home/acehwee7/public_html/system/cms/modules/polling/widgets/widgets/peringkat/views/form.php on line 8
+[01-Feb-2015 02:39:24 Asia/Jakarta] PHP Fatal error:  Call to undefined function base_url() in /home/acehwee7/public_html/system/cms/modules/polling/widgets/widgets/peringkat/views/display.php on line 32

@@ -1,0 +1,343 @@
+
+li{display:inline}
+.menu-item{
+   float:left;width:200px;height:150px}
+
+   /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  .nest {
+   margin-left: 17rem;
+   margin-bottom: -4rem;
+  }
+  .nest-atraksi {
+   margin-left: 170px;
+   margin-bottom: -3rem;
+  }
+  .nest-sb{
+   margin-left: 29rem;
+   margin-bottom: -3rem;
+  }
+  .nest-tmk{
+   margin-left: 565px;
+   margin-bottom: -3rem;
+  }
+  .nest-hiburan {
+   margin-left: 366px;
+   margin-bottom: -3rem;
+  }
+  
+}
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+   .nest {
+   margin-left: 12rem;
+   margin-bottom: -3rem;
+  }
+  .nest-atraksi {
+   margin-left: 92px;
+   margin-bottom: -3rem;
+  }
+    .nest-sb {
+   margin-left: 395px;
+   margin-bottom: -3rem;
+  }
+  .nest-tmk {
+   margin-left: 490px;
+   margin-bottom: -3rem;
+  }
+  .nest-hiburan {
+   margin-left: 292px;
+   margin-bottom: -3rem;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+   .nest {
+   margin-left: 42px;
+   margin-bottom: -4rem;
+  }
+    .nest-atraksi {
+   margin-left: 45px;
+   margin-bottom: -4rem;
+  }
+  /*blm*/
+    .nest-sb {
+   margin-left: 145px;
+   margin-bottom: -4rem;
+  }
+  .nest-tmk {
+   margin-left: 244px;
+   margin-bottom: -4rem;
+  }
+  .nest-hiburan {
+   margin-left: 44px;
+   margin-bottom: -4rem;
+  }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+    .nest {
+   margin-left: 70px;
+   margin-bottom: -2rem;
+  }
+    .nest-atraksi {
+   margin-left: 69px;
+   margin-bottom: -2rem;
+  }
+  /*blm*/
+    .nest-sb {
+   margin-left: 270px;
+   margin-bottom: -2rem;
+  }
+  .nest-tmk {
+   margin-left: 368px;
+   margin-bottom: -2rem;
+  }
+  .nest-hiburan {
+   margin-left: 171px;
+   margin-bottom: -2rem;
+  }
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    .nest {
+   margin-left: 21px;
+   margin-bottom: -4rem;
+  }
+    .nest-atraksi {
+   margin-left: 22px;
+   margin-bottom: -4rem;
+  }
+  /*blm*/
+    .nest-sb {
+   margin-left: 142px;
+   margin-bottom: -4rem;
+  }
+  .nest-tmk {
+   margin-left: 240px;
+   margin-bottom: -4rem;
+  }
+  .nest-hiburan {
+   margin-left: 43px;
+   margin-bottom: -4rem;
+  }
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  //CSS
+  
+}
+
+#kuliner ul li a,#atraksi ul li a,#senibudaya ul li a, #shopping ul li a, #tamankota ul li a, #hiburan ul li a{
+   display:block;
+   text-align: center;
+   font-size: 14px;
+   text-transform:uppercase;
+   color:#FFF;
+   padding-top:130px;
+   text-decoration:none;
+   /*margin-bottom: 7rem;*/
+   padding: 130px 8px 5px 8px;
+}
+
+/*kuliner icon*/
+.k5{background-image:url("../images/explore-icon/kaki-lima.svg");background-repeat:no-repeat;background-position:center center;background-size:30%;}
+.mt{background-image:url("../images/explore-icon/makanan-tradisional.svg");background-repeat:no-repeat;background-position:center center;background-size:30%;}
+.rst{background-image:url("../images/explore-icon/restoran-cafe.svg");background-repeat:no-repeat;background-position:center center;background-size:30%;}
+.bl{background-image:url("../images/explore-icon/bar-lounge.svg");background-repeat:no-repeat;background-position:center center;background-size:30%;}
+
+/*Atraksi*/
+.nat{background-image:url("../images/explore-icon/alam.svg");background-repeat:no-repeat;background-position:center center;background-size:30%;}
+.edu{background-image:url("../images/explore-icon/pendidikan.svg");background-repeat:no-repeat;background-position:center center;background-size:30%;}
+.adv{background-image:url("../images/explore-icon/petualangan.svg");background-repeat:no-repeat;background-position:center center;background-size:30%;}
+.fam{background-image:url("../images/explore-icon/keluarga.svg");background-repeat:no-repeat;background-position:center center;background-size:30%;}
+.spt{background-image:url("../images/explore-icon/olahraga.svg");background-repeat:no-repeat;background-position:center center;background-size:30%;}
+
+/*Seni Budaya*/
+.sb-icon{background-image:url("../images/explore-icon/seni-budaya.svg");background-repeat:no-repeat;background-position:center center;background-size:30%;}
+.bs{background-image:url("../images/explore-icon/bangunan-sejarah.svg");background-repeat:no-repeat;background-position:center center;background-size:30%;}
+
+/*Tempat Belanja*/
+.shp{background-image:url("../images/explore-icon/mall.svg");background-repeat:no-repeat;background-position:center center;background-size:30%;}
+.pt{background-image:url("../images/explore-icon/pasar-tradisional.svg");background-repeat:no-repeat;background-position:center center;background-size:30%;}
+.pmd{background-image:url("../images/explore-icon/pasar-modern.svg");background-repeat:no-repeat;background-position:center center;background-size:30%;}
+.pkh{background-image:url("../images/explore-icon/pasar-khusus.svg");background-repeat:no-repeat;background-position:center center;background-size:30%;}
+
+/*Taman Kota*/
+.rt{background-image:url("../images/explore-icon/ruang-terbuka.svg");background-repeat:no-repeat;background-position:center center;background-size:30%;}
+
+/*Hiburan */
+.spa-icon{background-image:url("../images/explore-icon/spa.svg");background-repeat:no-repeat;background-position:center center;background-size:30%;}
+.krk{background-image:url("../images/explore-icon/karaoke.svg");background-repeat:no-repeat;background-position:center center;background-size:30%;}
+.clb{background-image:url("../images/explore-icon/club.svg");background-repeat:no-repeat;background-position:center center;background-size:30%;}
+
+/*overlay */
+  /*overlay*/
+  a {
+   cursor:pointer;
+}
+
+
+/* The Overlay (background) */
+.overlay-jelajah {   
+    height: 50%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 25%;
+     background: rgba(0, 0, 0, 0.6); /* Black fallback color */
+     background: rgba(0, 0, 0, 0.8); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; 
+
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay-jelajah a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: inline-block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay-jelajah a:hover, .overlay-jelajah a:focus {
+    color: #494949;
+   
+}
+
+/* Position the close button (top right corner) */
+.overlay-jelajah .closebtn {
+    position: absolute;
+    top: 90px;
+    right: 45px;
+    font-size: 60px;
+   z-index:2;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlay-jelajah a {font-size: 20px}
+    .overlay-jelajah .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+/*close button*/
+ .circle {
+   width: 35px;
+   height: 35px;
+   background: transparent;
+   border: 2px solid #fff;
+   border-radius: 50%;
+   position: relative;
+   cursor: pointer;
+   display: inline-block;
+/*   top:90px;
+   margin:10px 20px;*/
+  transform-origin:100%,100%;
+  
+}
+ .circle:after {
+   width: 20px;
+   height: 2px;
+   background-color: #fff;
+   content: "";
+   left: 50%;
+   top: 50%;
+   margin-left: -11px;
+   margin-top: -2px;
+   position: absolute;
+   transform: rotate(-45deg);
+}
+ .circle:before {
+   left: 50%;
+   top: 50%;
+   margin-left: -11px;
+   margin-top: -2px;
+   width: 20px;
+   height: 2px;
+   background-color: #fff;
+   content: "";
+   position: absolute;
+   transform: rotate(45deg);
+}
+ .boxShadow {
+   transition: box-shadow 200ms ease-out, transform 200ms ease-out, opacity 200ms ease-in-out;
+}
+ .boxShadow:after, .boxShadow:before {
+   transition: 400ms linear;
+}
+ .boxShadow:hover:not(.fadeOut) {
+   box-shadow: 0px 0px 0px 20px #fff inset;
+   transform: scale(0.8);
+}
+ .boxShadow:hover:not(.fadeOut):after {
+   background-color: #464543;
+   transform: rotate(-45deg) scale(0.6);
+}
+ .boxShadow:hover:not(.fadeOut):before {
+   background-color: #464543;
+   transform: rotate(45deg) scale(0.6);
+}
+ .fadeOut {
+   opacity: 0;
+}
+ 
+.icon-search {max-width: 256px;max-height: 256px;
+   padding-top: 17px;
+   margin-left: 5px;
+   width:23px;
+   height: auto;
+}

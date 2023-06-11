@@ -1,0 +1,96 @@
+
+<div class="modal fade" data-toggle="mymodal" id="mymodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
+	<div class="modal-dialog">
+			<div class="modal-content">
+					
+					<div class="modal-body" >
+							<span id="isi"></span>
+					</div>
+				 
+			</div>
+	</div>
+</div>		
+<div class="container" style="margin-top:30px">
+		<div class="row">
+			
+			{pyro:widgets:instance id="127"}
+			
+		</div>           
+	</div>
+	<footer class="bg-dark" style="border-top:1px solid #dedede;margin-top:20px;">
+	<div class="container space-2">
+	  <div class="row justify-content-md-between">
+		<div class="col-6 col-md-3 col-lg-2 order-lg-3 mb-7 mb-lg-0">
+
+		  <!-- List Group -->
+		  <div class="list-group list-group-flush list-group-transparent" style="margin-top:20px">
+				<a class="navbar-brand bounce" href="<?php echo base_url()?>"><img src="./assets/images/logo.png" class="logos" alt=""></a>
+		  </div>
+		  <!-- End List Group -->
+		</div>
+
+		
+
+
+	   
+ 
+			<div class="col-lg-6 order-lg-1 d-flex align-items-start flex-column">
+			  <!-- Logo -->
+			
+				  <!-- End Signup -->
+				</div>
+				<div class="col-lg-4 order-lg-1 d-flex align-items-start flex-column" style="float:right">
+				  <!-- Logo -->
+			  
+	  <!-- Links -->
+	  <h6 class="text-uppercase font-weight-bold" style="margin-top:20px">Contact</h6> 
+	
+	  <ul class="list-group">
+		<li class="list-group-item"> 
+				Jl. Laksda Yos Sudarso 27-29 Tanjung Priok,
+				<br>
+				Jakarta Utara
+		</li>
+		<li class="list-group-item">  kominfoutara@jakarta.go.id</li>
+		<li class="list-group-item">
+		  (62-21) 4303111
+
+		</li> 
+		<li class="list-group-item">
+			 
+			  <!-- Social buttons -->
+			  <a href=" https://twitter.com/JakartaTourism" target="_BLANK" style="padding-right:4px"><i class="fa fa-twitter"></i>
+				 </a>
+				<a href="https://www.facebook.com/JakartaTourism/" target="_BLANK" style="padding-right:4px"><i class="fa fa-facebook"></i>
+				</a>
+				<a href="https://www.instagram.com/jakarta_tourism/" target="_BLANK" style="padding-right:4px"><i class="fa fa-instagram"></i>
+				</a>
+				<a href="https://www.youtube.com/user/JakartaTourism" target="_BLANK"><i class="fa fa-youtube"></i>
+				</a>
+		  </li> 
+	  </ul>
+					  <!-- End Signup -->
+					</div>
+
+					
+			<!-- End Content -->
+		  </div>
+		  <!-- End Language -->
+
+		  <p class="small text-muted">All rights reserved. ©Jakarta-Tourism.go.id <?php echo date('Y')?></p>
+		</div>
+	  </div>
+	</div>
+  </footer> 
+
+  <style>.list-group-item{
+	border:0px;
+	padding:5px 0.25rem
+	}</style>
+	
+	<script>
+	function modalpop(isi){
+		$('#mymodal').modal('show');
+		$('#isi').html(isi);
+	}
+	</script>

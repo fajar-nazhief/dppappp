@@ -1,0 +1,1 @@
+[01-Feb-2015 02:38:52 Asia/Jakarta] PHP Fatal error:  Call to undefined function lang() in /home/acehwee7/public_html/system/cms/modules/files/views/admin/folders/index.php on line 66

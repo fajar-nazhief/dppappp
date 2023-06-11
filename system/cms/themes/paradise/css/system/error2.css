@@ -1,0 +1,55 @@
+/*
+#------------------------------------------------------------------------
+# The World News II - July 2011 template (for Joomla 1.6/1.7)
+#
+# Copyright (C) 2007-2011 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+@import url('../../fonts/BebasNeue/stylesheet.css');
+body,
+html { margin: 0; padding: 0; }
+html { background: #d9d9d9 url('../../images/style2/bg1.jpg') no-repeat center top; }
+body { line-height:1.8; min-height:100%; background: transparent url('../../images/style2/bg2.png') no-repeat center top; color: #555; }
+a { text-decoration: none; color: #000;  font-weight: bold}
+a:hover,
+a:active,
+a:focus { color: #3d77b1; }
+/* containers */
+#wrapper { width: 800px; margin: 0 auto; }
+#frame { margin: 100px auto 50px; overflow: hidden; padding: 6px; width: 800px; }
+#outline { padding: 20px }
+#errorboxbody { width: 390px; border-left: 3px solid #3d77b1; font-size: 11px; padding: 0 20px 12px 32px; margin: 0 auto; }
+/* logo */
+
+#gkTop { background: url('../../images/style2/menu_bg.png') repeat-x 0 0; width: 100% }
+#gkTopWrap { height: 76px; position: relative; z-index: 1000; width: 1000px; margin: 0 auto }
+#errorNumber { float: left; padding: 31px 0 0; width: 39%; }
+h1.logo { margin: 0 auto; padding: 0; width: 390px; height: 50px; position: relative; top: 44px; }
+h1.logo a { background: url('../../images/style2/logo.png') no-repeat 0 0; display: block; margin: 0; text-indent: -999em; }
+h1,
+h2 { font: normal 220px/180px BebasNeue, Arial, sans-serif; text-align: center; padding: 0 }
+h1 { margin: 0; color: #3d77b1; text-shadow: 0 1px 0 #fff; }
+h2 { margin: 0 0 52px 0; font: normal 34px/20px BebasNeue, Arial, sans-serif; color: #444; text-shadow: 0 1px 0 #fff; line-height: 1.2; }
+#errorboxbody { float: right }
+#errorboxbody > p { margin: 28px 0 }
+ul { list-style-type: square; padding: 0 0 0 36px; }
+ol { padding: 0; list-style-position: inside; }
+ol li,
+ol li strong { font: normal 12px/180% Arial, sans-serif }
+#techinfo { text-align:center; }
+#techinfo { }
+p > strong { font: 18px/120% BebasNeue, Arial, sans-serif; color: #444;text-shadow: 0 1px 0 #fff; }
+
+h1#gkLogo {top: 44px; margin: 0 auto; position: relative}
+h1#gkLogo a img { display: block; height: 50px; max-width:450px; margin: 0 auto; }
+h1#gkLogo a.cssLogo { background: url('../../images/style2/logo.png') no-repeat 0 0; display: block; height: 50px; text-indent: -999em; width:390px; margin: 0 auto;  z-index: 1001; }
+h1.gkLogo.text { width: auto; margin: 0; padding-top: 30px; }
+h1.gkLogo.text a { display: block; background:none!important; font-size: 18px; line-height: 64px; font-weight:normal; text-indent: 0; text-align: center }
+h1.gkLogo.text a { padding: 0; width: auto!important; }
+h1#gkLogo a > span,
+h1#gkLogo a > small {display: block; line-height: 80%; margin: 0 auto !important; text-align: center}
+h1#gkLogo a > small {font-size: 22px !important}
+h1.gkLogo.text .gkLogoSlogan { display: block; font-size: 12px!important; line-height: 10px; color: #666!important; margin: 32px 0 18px 0; }

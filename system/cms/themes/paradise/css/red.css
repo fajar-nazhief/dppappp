@@ -1,0 +1,250 @@
+/*======================================================================*\
+|| #################################################################### ||
+|| # Copyright (C) 2006-2009 Youjoomla LLC. All Rights Reserved.        ||
+|| # This file may not be redistributed in whole or significant part. # ||
+|| # ---------------- THIS IS NOT FREE SOFTWARE ---------------- #      ||
+|| # http://www.youjoomla.com | http://www.youjoomla.com/license.html # ||
+|| #################################################################### ||
+\*======================================================================*/
+body#color{background:#fff url(shade.gif) no-repeat center top}
+#centerbottom{background:#fff}
+#logo{background:url(logo.png) no-repeat 0px 0px}
+#header{text-align:left; background:url(header.gif) no-repeat left top}
+
+.search{}
+.search .inputbox, 
+.search .inputbox:hover, 
+.search .inputbox:focus{background:url(search_bg.gif) no-repeat left top}
+.search .button{background:url(search_button.gif) no-repeat center center}
+#wrap{background-image:url(faux.gif); background-repeat:repeat-y; background-color:#f7f7f7}
+#wrapblank{background:#f7f7f7}
+
+#modlgn_passwd, #modlgn_username{color:#d01415; border:1px solid #e4e4e4}
+#modlgn_passwd{background:#fff}
+#modlgn_username{background:#fff}
+#mod_login_remember{border:none; padding:0!important}
+
+a:link, a:visited{text-decoration:none; color:#d01415}
+a:focus, a:hover{color:#1e1e1e; text-decoration:none}
+h1, h3, h4, 
+h5, h6, h2{color:#d01415}
+.small, .createdate, .modifydate, .mosimage_caption, .createby{text-transform:uppercase; color:#ccc; font:10px Tahoma,Verdana,"Lucida Sans"}
+.componentheading, 
+.contentheading, 
+.contentheading a:link, 
+.contentheading a:visited, 
+.contentheading a:link, 
+.contentheading a:visited{color:#d01415; background:url(inset.gif) repeat-x left bottom}
+#pathway{border:1px solid #e4e4e4}
+.toclink{border:1px solid #e4e4e4}
+fieldset{border:1px solid #d6d4d4}
+.yjsquare_in fieldset{border:none}
+.inputbox{background:#FFF; border:1px solid #e4e4e4}
+.inputbox:hover, .inputbox:focus{background:#fff; border:1px solid #d01415}
+
+.button{color:#fff}
+.button, .validate{background:#0d0d0d url(poll_button.gif) no-repeat center center; border:0; font-size:10px; color:#fff; font-weight:bold}
+.pollbuttons .button{background:#0d0d0d url(poll_button.gif) no-repeat center center; border:0; font-weight:bold; font-size:10px; color:#fff}
+a.button:link, 
+a.button:visited, 
+a.button:focus{color:#fff; padding:3px}
+.back_button a:hover, .back_button a:active{color:#000; text-decoration:none}
+a.pagenav, 
+.pagenav_prev a, 
+.pagenav_next a, 
+.pagenavbar a, .back_button a{background:#efefef; border:1px solid #ccc; color:#fff}
+a.readon:link, a.readon:visited{background:url(read_l.gif) no-repeat left center; color:#fff}
+.readon span{background:#2d2d2d url(read_r.gif) no-repeat right center}
+a.readon:hover, .pagenavbar a:hover{color:#ccc}
+
+.yjround{color:#555}
+.yjround div div div div{background:none}
+h3.roundtitle{background:url(h3bg.gif) no-repeat left top; color:#d01415}
+h3.roundtitle span{color:#d01415}
+.yjround{background:url(br.gif) 100% 100% no-repeat}
+.yjround div{background:url(bl.gif) 0 100% no-repeat}
+.yjround div div{background:url(tr.gif) 100% 0 no-repeat}
+.yjround div div div{background:url(tl.gif) 0 0 no-repeat}
+.yjround div.yj_news_flash_title_only a{background:url(strelica.gif) no-repeat left 4px; padding:0 0 15px 15px; display:block}
+
+.yjsquare h3{color:#d01415; background:url(h3bg.gif) no-repeat left top}
+.yjsquare h3 span{color:#d01415}
+.yjsquare{background:#F7F7F7; color:#555}
+
+.yjsquare_yj1 h3{color:#212121; background:url(h3bgyj1.gif) repeat-x left top}
+.yjsquare_yj1 h3 span{color:#212121}
+.yjsquare_yj1{background:#F7F7F7; color:#555}
+.yjsquare_yj1 h1, 
+.yjsquare_yj1 h4, 
+.yjsquare_yj1 h4, 
+.yjsquare_yj1 h5, 
+.yjsquare_yj1 h6{color:#212121}
+.yjsquare_yj1 h4{font-size:11px}
+
+.yjsquare_yj2 h3{color:#fff; background:url(h3bgyj2.gif) repeat-x left top}
+.yjsquare_yj2 h3 span{color:#fff}
+.yjsquare_yj2{background:#212121; color:#eee}
+.yjsquare_yj2 h1, 
+.yjsquare_yj3 h4, 
+.yjsquare_yj3 h4, 
+.yjsquare_yj3 h5, 
+.yjsquare_yj3 h6{color:#fff}
+
+.yjsquare_advert{border:1px solid #1e1e1e; color:#555}
+.yjsquare_advert h3{background-color:#fff; color:#1e1e1e}
+
+#horiznav ul li a{color:#eee; background:url(normal_l.png) no-repeat left center}
+
+
+#horiznav ul li a:hover, 
+#horiznav ul li:hover a, 
+#horiznav ul li.sfHover a{color:#fff; background:url(hover_l.png) no-repeat left center}
+#horiznav li#current a, 
+#horiznav li#current a:hover, 
+#horiznav li#current:hover a, 
+#horiznav li#current.sfHover a, 
+#horiznav li.active a{color:#eee; background:url(active_l.png) no-repeat left center}
+#horiznav li#current, 
+#horiznav li#current:hover, 
+#horiznav li#current.sfHover, 
+#horiznav li.active{background:url(active_r.png) no-repeat right center}
+#horiznav ul li:hover li a, 
+#horiznav ul li.sfHover li a, 
+#horiznav ul li#current:hover li a, 
+#horiznav ul li#current.sfHover li a, 
+#horiznav ul li:hover ul ul li a, 
+#horiznav ul ul li.active{color:#fff; background-image:none}
+#horiznav li:hover ul, 
+#horiznav li li:hover ul, 
+#horiznav li li li:hover ul, 
+#horiznav li li li li:hover ul, 
+#horiznav li.sfHover ul, 
+#horiznav li li.sfHover ul, 
+#horiznav li li li.sfHover ul, 
+#horiznav li li li li.sfHover ul, 
+#horiznav ul li:hover li a, 
+#horiznav ul li.sfHover li a, 
+#horiznav ul li:hover ul ul li a, 
+#horiznav ul li.sfHover ul ul li a{background-color:#292929}
+#horiznav li ul li a:hover, 
+#horiznav li ul li ul li a:hover, 
+#horiznav li li:hover, 
+#horiznav ul li li.sfHover, 
+#horiznav li li.sfHover a, 
+#horiznav ul li li:hover a, 
+#horiznav ul li li:hover, 
+#horiznav ul li li.sfHover, 
+#horiznav ul li li#current a:hover, 
+#horiznav li.haschild ul li#current.sfHover, 
+#horiznav li.haschild ul li#current:hover, 
+#horiznav ul li.haschild li#current a:hover{background-color:#000; color:#fff; background-image:none}
+#horiznav ul li#current ul li a, 
+#horiznav ul li#current ul li, 
+#horiznav ul li#current ul li a:hover, 
+#horiznav ul li#current ul li.hover
+#horiznav ul li#current ul li.sfHover, 
+#horiznav ul li.haschild li#current a{color:#eee}
+#horiznav li li{border-bottom:1px solid #5c5c5c}
+#horiznav li ul{border-right:1px solid #5c5c5c; border-left:1px solid #5c5c5c; border-bottom:none; border-top:1px solid #5c5c5c}
+#horiznav li, #horiznav{background:url(horiz_bg.png) repeat-x 0 bottom; font-weight:bold}
+#horiznav li{background:url(normal_r.png) no-repeat right center}
+#horiznav ul li:hover, #horiznav ul li.sfHover{background:url(hover_r.png) no-repeat right center}
+#horiznav ul li ul li.haschild a.child, 
+#horiznav ul li ul li a.child:hover{background:url(arrow_right.gif) 95% 50% no-repeat}
+#horiznav ul li.active ul li a.child{background:url(arrow_right.gif) 95% 50% no-repeat}
+#horiznav_d{background:#ccc url(horiz_bg_d.gif) repeat-x 0 top; font-weight:bold}
+#horiznav_d li{background:url(normal_l.png) no-repeat left center}
+#horiznav_d li a, #horiznav_d li .separator{background:url(normal_r.png) no-repeat right center; color:#eee}
+#horiznav_d ul li ul{background:url(horiz_bg_dd.png) repeat-x 0 top}
+#horiznav_d li.active, #horiznav_d li.active:hover, 
+#horiznav_d li.active.sfHover, 
+#horiznav_d li:hover, #horiznav_d li.sfHover{background:url(active_l.png) no-repeat left center}
+#horiznav_d li.active a, #horiznav_d li.active .separator, 
+#horiznav_d li.active a:hover, #horiznav_d li.active .separator:hover, 
+#horiznav_d li:hover a, #horiznav_d li:hover .separator, 
+#horiznav_d li.sfHover a, #horiznav_d li.sfHover .separator{background:url(active_r.png) no-repeat right center; color:#fff}
+#horiznav_d li.haschild li a:hover, 
+#horiznav_d li.haschild li.active a{text-decoration:underline; background:url(drop_sep.png) no-repeat right bottom}
+#horiznav_d li.haschild li a{color:#eee; font-weight:bold; background:url(drop_sep.png) no-repeat right bottom}
+
+#mainlevel li a, 
+.menu li a, 
+a.mainlevel{background:url(mainlevel.gif) no-repeat left top}
+#mainlevel li a:hover, 
+#mainlevel a#active_menu:link, #mainlevel a#active_menu:visited, 
+a.mainlevel:hover, 
+a.mainlevel#active_menu, 
+#mainlevel li a:hover, 
+#mainlevel a#active_menu:link, #mainlevel a#active_menu:visited, 
+.menu li a:hover, .menu li.active a{background:url(mainlevel.gif) no-repeat left bottom}
+a.sublevel{background:url(strelica.gif) no-repeat 5px 9px}
+a.sublevel:hover{background:url(strelica_hover.gif) no-repeat 5px 9px}
+#footmod a.mainlevel:hover, 
+#footmod a.mainlevel:active, 
+#footmod a.mainlevel:focus, 
+#mainlevel li a:hover, 
+#mainlevel a#active_menu:link, 
+#mainlevel a#active_menu:visited, 
+a.mainlevel#active_menu, 
+a.sublevel, a.sublevel:hover, 
+a.sublevel:active, a.sublevel:focus, 
+#active_menu, a.mainlevel:hover, 
+a.mainlevel:active, 
+a.mainlevel:focus, 
+ul li a:hover, 
+li.active a, 
+li.parent a{color:#1e1e1e}
+a.mainlevel, 
+#mainlevel li a{color:#d01415}
+.yjsquare li.active ul li a, 
+a.sublevel#active_menu{color:#d01415}
+.yjsquare li.active ul li a:hover, 
+.yjsquare li.active ul li.active a{color:#1e1e1e; background:url(mainlevel.gif) no-repeat left top}
+body li{padding-left:15px; background:url(strelica.gif) no-repeat 0px 6px; font-family:Verdana,Arial,Helvetica, sans-serif; font-size:11px; text-decoration:none}
+
+#YouNews, 
+#YouNews_1, 
+#YouNews_2, 
+#YouNews_3, 
+#YouNews_4, 
+#YouNews_5{border:0}
+
+.ynsheader{background:#cd1413 url(header-1.jpg) repeat-x left top; border:0}
+.ynsheader_l{background:url(header_l-1.jpg) no-repeat left top}
+.ynsheader_r{background:url(header_r-1.jpg) no-repeat right top}
+
+.yjsquare_yjns8 h3{color:#d01415; background:url(h3bg.gif) no-repeat left top; overflow:hidden; font-size:14px; padding:0; margin:0px; height:40px; line-height:38px; padding:0 0 0 10px}
+.yjsquare_yjns8 h3 span{color:#d01415}
+.YJSports_slide .YJSports_description a.YJSports_more:hover{color:#d01415}
+
+.yjsquare_yjnf7 h3{color:#d01415; background:url(h3bg.gif) no-repeat left top; overflow:hidden; font-size:14px; padding:0; margin:0px; height:40px; line-height:38px; padding:0 0 0 10px}
+.yjsquare_yjnf7 h3 span{color:#d01415}
+
+#titles_holder, 
+#yj_nt2 div div{background:#ac0101}
+.title_nav{float:left; width:35px; display:block; overflow:hidden; margin:0; padding:0}
+.title_nav a.prev{width:15px; background:url(ticker_prev.png) no-repeat left 14px}
+.title_nav a.next{width:15px; background:url(ticker_next.png) no-repeat left 14px}
+#yj_nt2 a{color:#fff; text-decoration:none}
+#yj_nt2 a:hover{color:#000; text-decoration:none}
+#cp a, 
+#footmod a{color:#fff}
+#cp a:hover, 
+#footmod a:hover{color:#d01415}
+
+#users{background:#cd1413 url(users_header.gif) repeat-x left top}
+#user1, #user2, #user3{background:url(users_div.gif) no-repeat right 50px}
+#users .yjsquare h3{color:#fff; background:url(users_h3.gif) repeat-x left top}
+#user3{background:none}
+.users_in{text-align:left}
+#users .yjsquare{background:none; color:#fff}
+#users .yjsquare h3 span{color:#fff}
+#users a{color:#fff}
+#users a:hover{color:#000}
+#bottoms{background:#cd1413 url(users_header.gif) repeat-x left top}
+.bottom_title{background:url(users_h3.gif) repeat-x left top}
+#bottoms .yjsquare .yj_news_flash_content{background:url(inset_bottom.gif) repeat-x left bottom}
+#bottoms .yj_news_flash_header{background:url(arrow_bottom.gif) no-repeat right 2px}
+#bottoms .yj_news_flash_title_only{background:url(arrow_bottom.gif) no-repeat left 2px}
+
+#city-form span.selected{color:#d01415}

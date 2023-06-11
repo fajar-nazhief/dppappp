@@ -1,0 +1,52 @@
+
+
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<a class="navbar-brand bounce" href="<?php echo base_url()?>">
+				<img src="assets/images/logo-blk.png" class="logo hidden-sm-down" alt="">
+				<img src="assets/images/logo-blk.png" class="logo hidden-sm-up" style="width:50%;height:50%" alt="">
+			</a>
+		</div>
+		<div class="attr-nav">
+			<ul>
+				<li class="disappear">
+					<form action="" class="language-switch ">
+						 
+						<input name="language" id="ina" type="radio" value="ina">
+						<label for="ina">Search</label> 
+							</form>
+					</li>
+				<li>
+					<div id="search " class="overlay">
+							<a class="mk-search-trigger mk-fullscreen-trigger " href="#" id="search-button-listener">
+							<div id="search-button"><img class="icon-search" src="assets/images/icon/search-button.svg" /></div>
+							</a>
+							<div class="mk-fullscreen-search-overlay" id="mk-search-overlay">
+							<a href="#" class="mk-fullscreen-close" id="mk-fullscreen-close-button"> <div class="circCont"><button class="circle boxShadow" data-animation="fadeOut" data-remove="1000" id="mk-fullscreen-close-button"></button></div></a>
+							<div id="mk-fullscreen-search-wrapper">
+								<form method="post" id="mk-fullscreen-searchform" action="blog/search">
+								<input name="search" type="text" value="" placeholder="Search..." id="mk-fullscreen-search-input">
+								<img class="fullscreen-search-icon" src="assets/images/icon/magnifier.svg" /><input value="" type="submit"></i>
+									</form>
+								</div>
+							</div>
+						</div>
+					</li>
+				<li>
+		
+					<div id="mySidenav" class="sidenav">
+						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">  <div class="circCont" style="margin-top: 11px;"><button class="circle boxShadow" data-animation="fadeOut" data-remove="1000"></button></div></a>
+							<div class="side">
+									 
+								{pyro:navigation:links_home group="sidebar"}
+
+							
+						</div>
+					</div>
+					<span id="gone" class="menu-icon src" style="font-size:30px;cursor:pointer;float:right; margin-top: -45px;" onclick="openNav()"><img src="assets/images/icon/menu-button.svg"/></i></span>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>

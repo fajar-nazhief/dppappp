@@ -1,0 +1,152 @@
+
+.question {
+	font-weight: bold;
+	font-size: 12pt;
+	color:#E1E1E1;
+}
+
+.questionpoll{
+	background:#EAEAEA;
+	font-weight: bold;
+	font-size: 12pt;
+	color:#626262;
+	padding:6px 10px;
+	padding-bottom:6px;
+	border-radius: 4px 4px 0px 0px;
+	border-bottom:1px solid #ACACAC;
+	text-shadow: 0 1px 1px #AEAEAE;
+}
+
+ 
+
+fieldset { 
+	width: 200px;
+	padding: 0px 10px;
+	margin:0px 10px; 
+}
+
+legend {
+	color: #ffffff; 
+	padding: 10px 6px ;
+	text-shadow: 0 1px 1px #000000;
+	font-weight: bold;
+	width:200px;
+	text-align:center;
+}
+
+.currentResults {
+	font-size: 8pt;
+}
+
+.vote {
+	 
+	padding:6px 0px;
+}
+
+.vote p {
+	margin-top: 6px;
+	margin-bottom: 6px;
+	color:#DFDFDF;
+	padding:8px;
+}
+
+.errorMessage { 
+	font-weight: bold;
+	font-size: 10pt;
+	color: #ff0000;
+}
+
+.credit { 
+	font-size: 8pt;
+	color: #696969;
+}
+ 
+
+input.submit {
+    background: none repeat scroll 0 0 #DEDEDE;
+    border: 1px outset #CCCCCC;
+    color: #000000;
+    cursor:pointer;
+}
+
+/* Default for the poll bars */
+
+.pollBar {
+	height: 15px;
+	background: #ff0000;
+	border: 1px solid #000000;
+}
+
+/* Poll bar ids are sequential and one-indexed */
+
+#pollBar1 {
+	background: #ff0000;
+}
+
+#pollBar2 {
+	background: #00ff00;
+}
+
+#pollBar3 {
+	background: #0000ff;
+}
+
+#pollBar4 {
+	background: #ffff00;
+}
+
+#pollBar5 {
+	background: #00ffff;
+}
+
+#pollBar6 {
+	background: #ff00ff;
+}
+
+.currentResults a{
+	height:20px;
+}
+
+.pollingQ ul{ 
+	display:block; 
+}
+
+.pollingQ ul li {
+    
+    display: inline;
+    float: left;
+    height: 180px;
+    margin-left: 11px;
+    margin-right: 25px;
+    width: 100px;
+}
+
+/* isijakgo */
+.isijakgo{
+	height:100%;
+}
+.isijakgo ul { width:230px; height:100%;  position:relative;  }
+
+.isijakgo ul li { margin:6px;display:inline; float:left;width:auto; height:48px;  color:#FFFFFF; 
+	 
+}
+
+.isijakgo ul li img { 
+    border-radius: 2px 2px 2px 2px;
+} 
+
+#tulisan{
+	 padding-top:38px;
+	 text-shadow: 0 1px 1px #000000;
+}
+
+.success {
+    background:   #D5FFCE;
+    border: 1px solid #76B070;
+    color: #556652;
+    padding:20px 0px;
+    margin:6px 0px;
+    text-align:center;
+    border-radius: 2px 2px 2px 2px;
+}
+ 

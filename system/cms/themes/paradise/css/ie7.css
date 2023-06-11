@@ -1,0 +1,66 @@
+/*
+#------------------------------------------------------------------------
+# The World News II - July 2011 template (for Joomla 1.6/1.7)
+#
+# Copyright (C) 2007-2011 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+.gkCol { float: left; margin-top: 0!important; }
+#gkTop1,
+#gkTop2,
+#gkUser1,
+#gkUser2,
+#gkMainBlock,
+#gkLeftMiddle,
+#gkRightMiddle,
+#gkHeader { padding: 0; }
+#gkLeft,
+#gkContent,
+#gkRight { margin-top: 0!important; }
+div.gk-menu > ul.level0 > li:hover > .childcontent a { display: block; }
+div.gk-menu > ul.level0 > li:hover > .childcontent .childcontent { margin-left: 150px!important; } /* submenu width - (left padding of item * 4) */ 
+div.gk-menu > ul.level0 > li > .childcontent .childcontent { margin-top: -32px!important; }
+
+div#gkDropSub > ul > li > ul,
+div#gkDropSub > ul > li > ul ul { position: absolute; display: block; left: -999%; width: 200px; z-index: 999; }
+
+div#gkDropSub > ul > li:hover > ul,
+div#gkDropSub > ul > li:hover > ul li:hover > ul { left: auto; }
+
+#gkSocialAPI .google-buzz-button { margin-top: 1px; }
+
+.items-row.cols-1 .item{ width:100%!important;  }
+.items-row.cols-2 .item{ width:49.5%!important; }
+.items-row.cols-3 .item{ width: 32.5%!important; }
+.items-row.cols-4 .item{ width: 24.5%!important; }
+
+body > .bg { padding-bottom: 23px!important; margin-bottom: -23px!important; }
+#gkPageTop h1.gkLogo a { margin-top: 24px; }
+#gkPageTop h1.gkLogo { float: left; height: 160px; }
+#gkButtons a span { position: static!important; }
+
+#gkContentBottom { clear: both; }
+#gkMainbody { overflow: hidden; }
+
+#gkContentMainbody.gkMain { background:#fff!important; zoom:1; }
+
+#gkBottom1 .gkCol,
+#gkBottom2 .gkCol { padding: 0!important; }
+#gkBottom1 .gkCol > div,
+#gkBottom2 .gkCol > div { margin: 6px!important; }
+#gkBottom1 .gkColLeft > div,
+#gkBottom2 .gkColLeft > div { margin-left: 12px!important; }
+#gkBottom1 .gkColRight > div,
+#gkBottom2 .gkColRight > div { margin-left: 12px!important; }
+#gkBottom1 .gkColFull > div,
+#gkBottom2 .gkColFull > div { margin-left: 12px!important; margin-right: 12px!important; }
+
+.nspMainPortalMode4 .nspArtHeadline { position: static; }
+
+#gkSearch #mod-search-searchword { margin-top: -10px!important; position: relative!important; top: -3px!important; }
+
+.itemDateCreated { margin-left: -110px; }
+li { zoom: 1 }

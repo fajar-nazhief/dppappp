@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" id="facebook" class="no_js" xmlns:fb="http://ogp.me/ns/fb#" xmlns:og="http://ogp.me/ns#">
+<head>
+	 
+
+	{pyro:theme:partial name="metadata"} 
+    </head>
+<body>
+<div class="wrapper wrapper-home white" id="page-container">
+<div id="page-wrap">
+{pyro:theme:partial name="header"}
+<div style="padding-left:10px;margin-bottom:10px" class="clearfix">
+	 
+	 
+</div> 
+<div id="content" style="padding-left:10px">
+ 
+  
+	
+<div id="featured" class="widget">
+	 <div>
+	 <!-- NEWS CONTENT -->
+		<div class="tab_container" >
+			<div style="display: block;padding-left:0px" id="tab1" class="tab_content" > 
+					<script>
+  (function() {
+    var cx = '006289015184672943177:ny9_wzml9xw';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchresults-only></gcse:searchresults-only>
+				      
+		      </div>
+		</div>
+	</div>
+</div>
+
+
+
+ 	 
+ 	  
+
+
+ 	
+	 	 
+	
+		
+</div> <!-- /#content -->
+
+<div id="sidebar">
+	<?php   //print_r($article);
+	//echo $article->id?>
+  <?php if(!empty($article)){?>
+   {pyro:news:video_artikel news_id="<?php   echo $article->id ?>"}
+   <?php   }?>  
+  {pyro:news:artikel_terkait group="sidebar"}
+   {pyro:widgets:instance id="34"} 
+
+			
+			 
+</div><!-- /#sidebar -->
+
+<div class="clear"></div>
+
+</div></div>
+{pyro:theme:partial name="footer"}
+
+ 
+</body>
+</html>
+
+

@@ -1,0 +1,2 @@
+[01-Feb-2015 02:39:01 Asia/Jakarta] PHP Fatal error:  Call to undefined function lang() in /home/acehwee7/public_html/system/cms/modules/files/views/admin/partials/nav.php on line 1
+[01-Feb-2015 02:39:01 Asia/Jakarta] PHP Fatal error:  Call to undefined function lang() in /home/acehwee7/public_html/system/cms/modules/files/views/admin/partials/shortcuts.php on line 2

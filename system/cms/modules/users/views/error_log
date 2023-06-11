@@ -1,0 +1,7 @@
+[01-Feb-2015 02:37:15 Asia/Jakarta] PHP Fatal error:  Call to undefined function lang() in /home/acehwee7/public_html/system/cms/modules/users/views/login.php on line 1
+[01-Feb-2015 02:37:15 Asia/Jakarta] PHP Fatal error:  Call to undefined function lang() in /home/acehwee7/public_html/system/cms/modules/users/views/register.php on line 1
+[01-Feb-2015 02:37:15 Asia/Jakarta] PHP Fatal error:  Call to undefined function lang() in /home/acehwee7/public_html/system/cms/modules/users/views/activate.php on line 1
+[01-Feb-2015 02:37:15 Asia/Jakarta] PHP Fatal error:  Call to undefined function lang() in /home/acehwee7/public_html/system/cms/modules/users/views/activated.php on line 1
+[01-Feb-2015 02:37:15 Asia/Jakarta] PHP Fatal error:  Call to undefined function lang() in /home/acehwee7/public_html/system/cms/modules/users/views/reset_pass.php on line 1
+[01-Feb-2015 02:37:15 Asia/Jakarta] PHP Fatal error:  Call to undefined function form_open() in /home/acehwee7/public_html/system/cms/modules/users/views/login_small.php on line 1
+[01-Feb-2015 02:37:15 Asia/Jakarta] PHP Fatal error:  Call to undefined function lang() in /home/acehwee7/public_html/system/cms/modules/users/views/reset_pass_complete.php on line 1

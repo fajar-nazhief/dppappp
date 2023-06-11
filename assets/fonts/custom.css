@@ -1,0 +1,337 @@
+ 
+ 
+
+ 
+
+ 
+
+
+@font-face {
+    font-family: 'Gilroyblack';
+    src: url('radomir_tinkov_-_gilroy-black-webfont.woff2') format('woff2'),
+         url('radomir_tinkov_-_gilroy-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Gilroybold';
+    src: url('radomir_tinkov_-_gilroy-bold-webfont.woff2') format('woff2'),
+         url('radomir_tinkov_-_gilroy-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('radomir_tinkov_-_gilroy-medium-webfont.woff2') format('woff2'),
+         url('radomir_tinkov_-_gilroy-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Gilroyreg';
+    src: url('radomir_tinkov_-_gilroy-regular-webfont.woff2') format('woff2'),
+         url('radomir_tinkov_-_gilroy-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+ 
+ 
+  @font-face {
+	font-family: museo;
+	src: url('MuseoSanCyrlW03700Italic.otf');
+	font-style: normal;
+	font-weight: 400;
+  }
+
+  .img-artikel{
+	width: auto;
+	height: 120px; 
+	left: -10%;
+	border-radius: 30px;
+  }
+
+  .headercrumb{
+	  background: #D6D6D6;
+	  padding:10px !important;
+	  border-radius: 65px;
+	  color:#000 !important;
+  }
+  .headercrumb a{
+	color:#000 !important;
+  }
+
+  #navnews ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+#navnews ul li a {
+    border-bottom: 1px solid #ededed;
+    padding: 10px;
+	margin:10px;
+    display: block;
+    color: #000;
+	font-size:17px;
+	font-family: 'Gilroybold';
+}
+
+#navnews ul li {
+    background: #E5E5E5;
+	border-radius: 65px;
+}
+
+
+.box_style_pop {
+    background: #fff; 
+    margin-bottom: 25px;
+}
+
+ul#cat_pop {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul#cat_pop li {
+    border-bottom: 1px solid #ddd;
+}
+
+ul#cat_pop li a {
+    display: block;
+    padding: 5px 10px;
+	position: relative;
+color: #777;
+}
+
+ul#cat_nav li a::after {
+    font-family: fontello; 
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+ 
+.aplikasi{
+	height:100px;
+}
+
+.sosmedfont{
+	font-size:11px;
+}
+
+header#plain ul#top_links li{
+	margin-right:15px;
+}
+
+
+.panel-info > .panel-heading {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+
+.panel-group .panel {
+    margin-bottom: 0;
+    border-radius: 4px;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.panel-body{
+    padding:20px;
+}
+
+.panel-group .panel-heading {
+    border-bottom: 0;
+        border-bottom-color: currentcolor;
+    border-bottom-color: currentcolor;
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.event-item{
+    overflow: hidden;
+  }
+
+  .event-item:not(:last-child){
+    margin-bottom: 30px;
+  }
+
+  .event-item .event-img{
+    display: block;
+  }
+
+  .event-item .event-img:not(:last-child){
+    margin-bottom: 25px;
+  }
+
+  .event-item .event-date{
+    width: 68px;
+    height: 68px;
+    background: #bf0d3e;
+    color: #fff;
+    text-align: center;
+    padding: 10px 5px;
+    float: left;
+    margin-right: 20px;
+    font-family: 'Lato', sans-serif;
+  }
+
+    .event-date .event-month{
+      text-transform: uppercase;
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    .event-date .event-day{
+      font-weight: 900;
+      font-size: 30px;
+    }
+
+  .event-item .event-info{
+    overflow: hidden;
+  }
+
+    .event-info h6.event-link{
+      line-height: 24px;
+    }
+
+    .event-info h6.event-link:not(:last-child){
+      margin-bottom: 5px;
+    }
+
+    .event-info .event-link a{
+      border-bottom: 1px solid transparent;
+    }
+
+    .event-info .event-link a:hover{
+      border-bottom-color: inherit;
+    }
+
+    .event-info .event-info-item{
+      color: #999;
+      font-size: 14px;
+      line-height: 20px;
+      text-transform: none;
+    }
+
+    .event-info .entry-date{
+      font-size: 14px;
+      color: #a7a7a7;
+      line-height: 20px;
+    }
+
+      .event-info .event-info-item i{
+        display: inline-block;
+        width: 20px;
+        padding: 0 2px;
+        color: #333;
+      }
+
+      .event-info .event-link .label{
+        position: relative;
+        display: inline-block;
+        margin-right: 15px;
+        border-radius: 3px;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 7px 10px;
+        vertical-align: 6px;
+      }
+
+      .event-info .event-link > .label + a{
+        overflow: hidden;
+      }
+
+      .event-info .entry-meta{
+        color: #999;
+        font-size: 14px;
+      }
+
+      .event-info .entry-meta a{
+        color: #14468c;
+      }
+
+      .event-info .entry-meta a:hover{
+        text-decoration: underline;
+      }
+
+      .event-info header h4.event-link{
+        line-height: 36px;
+      }
+
+      .event-info .entry-meta > *:not(:last-child):after{
+        content: '/';
+        display: inline-block;
+        margin: 0 5px;
+        color: #999;
+      }
+
+      .event-info header:not(:last-child){
+        margin-bottom: 10px;
+      }
+
+      .event-item .event-info .event-link + .entry-meta{
+        margin-top: -10px;
+      }
+
+      .event-info .entry-meta:not(:last-child){
+        margin-bottom: 10px;
+      }
+      .page-item a {
+
+        position: relative;
+        display: block;
+        padding: .5rem .75rem;
+        margin-left: -1px;
+        line-height: 1.25;
+        color: #007bff;
+        background-color: #fff;
+        border: 1px solid #dee2e6;
+    
+    }
